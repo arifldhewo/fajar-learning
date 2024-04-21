@@ -1,7 +1,9 @@
 <template>
   <nav class="fixed lg:hidden w-full bg-slate-button z-10">
     <div class="ml-5 mr-5 flex justify-between items-center">
-      <img class="w-32" src="@/assets/imgs/logo.png" alt="Logo" />
+      <a href="/">
+        <LogoFajarLearning></LogoFajarLearning>
+      </a>
 
       <div>
         <button @click="openMobileNav()">
@@ -53,11 +55,13 @@
 
 <script>
 import ButtonClose from "../button/ButtonClose.vue";
+import LogoFajarLearning from "../Logo/LogoFajarLearning.vue";
 
 export default {
   name: "NavMobile",
   components: {
     ButtonClose,
+    LogoFajarLearning,
   },
   data() {
     return {

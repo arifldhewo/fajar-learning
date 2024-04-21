@@ -12,6 +12,8 @@
 }
 
 nav a.router-link-exact-active {
-  color: white;
+  color: orangered;
+  -webkit-text-stroke: 0.1px;
+  -webkit-text-stroke-color: black;
 }
 </style>

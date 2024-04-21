@@ -3,13 +3,9 @@
     <div
       class="invisible lg:visible w-full flex justify-evenly items-center mt-8"
     >
-      <router-link class="text-2xl font-semibold" to="/">Home</router-link>
-      <router-link class="text-2xl font-semibold" to="/about"
-        >About</router-link
-      >
-      <router-link class="text-2xl font-semibold" to="/course"
-        >Course</router-link
-      >
+      <NavLink link-to-page="/" display-link="Home"></NavLink>
+      <NavLink link-to-page="/about" display-link="About"></NavLink>
+      <NavLink link-to-page="/course" display-link="Course"></NavLink>
       <a
         class="text-2xl font-semibold"
         target="_blank"
@@ -27,11 +23,13 @@
 
 <script>
 import ButtonSecondary from "../button/ButtonSecondary.vue";
+import NavLink from "../Nav/NavLink.vue";
 
 export default {
   name: "RightHero",
   components: {
     ButtonSecondary,
+    NavLink,
   },
 };
 </script>
