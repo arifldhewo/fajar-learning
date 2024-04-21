@@ -10,7 +10,7 @@
         <NavLink link-to-page="/" display-link="Home"></NavLink>
         <NavLink link-to-page="/course" display-link="Course"></NavLink>
         <NavLink link-to-page="/about" display-link="About"></NavLink>
-        <a href="https://wa.me/0895328899115">
+        <a href="https://wa.me/+62895328899115">
           <ButtonPrimary
             class="text-2xl font-bold text-white hover:text-black"
             text="Contact Us"
