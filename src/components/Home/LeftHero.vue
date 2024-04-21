@@ -26,7 +26,7 @@
 </template>
 
 <script>
-import ButtonPrimary from "../button/ButtonPrimary.vue";
+import ButtonPrimary from "../Button/ButtonPrimary.vue";
 
 export default {
   name: "LeftHero",

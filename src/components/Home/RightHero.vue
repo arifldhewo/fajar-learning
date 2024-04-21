@@ -4,13 +4,13 @@
       class="invisible lg:visible w-full flex justify-evenly items-center mt-8"
     >
       <NavLink link-to-page="/" display-link="Home"></NavLink>
-      <NavLink link-to-page="/about" display-link="About"></NavLink>
       <NavLink link-to-page="/course" display-link="Course"></NavLink>
+      <NavLink link-to-page="/about" display-link="About"></NavLink>
       <a
         class="text-2xl font-semibold"
         target="_blank"
         href="https://wa.me/0895328899115"
-        ><ButtonSecondary :text="'Contact Us'"></ButtonSecondary
+        ><ButtonSecondaryOutline :text="'Contact Us'"></ButtonSecondaryOutline
       ></a>
     </div>
 
@@ -22,13 +22,13 @@
 </template>
 
 <script>
-import ButtonSecondary from "../button/ButtonSecondary.vue";
+import ButtonSecondaryOutline from "../Button/ButtonSecondaryOutline.vue";
 import NavLink from "../Nav/NavLink.vue";
 
 export default {
   name: "RightHero",
   components: {
-    ButtonSecondary,
+    ButtonSecondaryOutline,
     NavLink,
   },
 };

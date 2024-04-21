@@ -1,10 +1,9 @@
 <template>
   <nav class="fixed lg:hidden w-full bg-slate-button z-10">
     <div class="ml-5 mr-5 flex justify-between items-center">
-      <a href="/">
-        <LogoFajarLearning></LogoFajarLearning>
-      </a>
-
+      <router-link to="/">
+        <LogoFajarLearning> </LogoFajarLearning>
+      </router-link>
       <div>
         <button @click="openMobileNav()">
           <img
@@ -25,23 +24,25 @@
           <ButtonClose @close="closeMobileNav()"></ButtonClose>
         </div>
         <div class="m-5">
-          <button>
-            <router-link class="text-2xl font-semibold" to="/"
-              >Home</router-link
-            >
-          </button>
+          <NavLink
+            class="text-2xl font-semibold"
+            link-to-page="/"
+            display-link="Home"
+          ></NavLink>
         </div>
         <div class="m-5">
-          <router-link class="text-2xl font-semibold" to="/about"
-            >About</router-link
-          >
+          <NavLink
+            class="text-2xl font-semibold"
+            link-to-page="/about"
+            display-link="About"
+          ></NavLink>
         </div>
         <div class="m-5">
-          <button>
-            <router-link class="text-2xl font-semibold" to="/course"
-              >Course</router-link
-            >
-          </button>
+          <NavLink
+            class="text-2xl font-semibold"
+            link-to-page="/course"
+            display-link="Course"
+          ></NavLink>
         </div>
         <div class="m-5">
           <a class="text-2xl font-semibold" href="https://wa.me/0895328899115">
@@ -54,14 +55,16 @@
 </template>
 
 <script>
-import ButtonClose from "../button/ButtonClose.vue";
+import ButtonClose from "../Button/ButtonClose.vue";
 import LogoFajarLearning from "../Logo/LogoFajarLearning.vue";
+import NavLink from "./NavLink.vue";
 
 export default {
   name: "NavMobile",
   components: {
     ButtonClose,
     LogoFajarLearning,
+    NavLink,
   },
   data() {
     return {
