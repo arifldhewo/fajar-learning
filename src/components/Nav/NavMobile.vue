@@ -45,7 +45,10 @@
           ></NavLink>
         </div>
         <div class="m-5">
-          <a class="text-2xl font-semibold" href="https://wa.me/0895328899115">
+          <a
+            class="text-2xl font-semibold"
+            href="https://wa.me/+62895328899115"
+          >
             Contact Us</a
           >
         </div>
