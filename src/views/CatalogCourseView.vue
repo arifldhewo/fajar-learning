@@ -25,25 +25,25 @@ export default {
           ImgURLVal: "https://cdn-icons-png.flaticon.com/512/2374/2374370.png",
           Header1Val: "Math",
           Header2Val:
-            "A description about math as a course exactly, what did you expect? A course how to play Dark Souls?",
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eum qui et ut ",
         },
         {
           ImgURLVal: "https://cdn-icons-png.flaticon.com/512/2933/2933803.png",
           Header1Val: "Science",
           Header2Val:
-            "A description about science not a fucking Souls Tutorial",
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eum qui et ut ",
         },
         {
           ImgURLVal: "https://cdn-icons-png.flaticon.com/512/4341/4341093.png",
           Header1Val: "Social",
           Header2Val:
-            "A description about social not comply with gamers people cause your no life",
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eum qui et ut ",
         },
         {
           ImgURLVal: "https://cdn-icons-png.flaticon.com/512/5632/5632466.png",
           Header1Val: "English",
           Header2Val:
-            "A description about english course, this course match with people can't read this text",
+            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel eum qui et ut ",
         },
       ],
     };
