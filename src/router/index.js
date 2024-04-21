@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import MainView from "../views/MainView.vue";
+import CatalogCourseView from "@/views/CatalogCourseView.vue";
 
 Vue.use(VueRouter);
 
@@ -13,7 +14,7 @@ const routes = [
   {
     path: "/course",
     name: "course",
-    component: MainView,
+    component: CatalogCourseView,
   },
 ];
 

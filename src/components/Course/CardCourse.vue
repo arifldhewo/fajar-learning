@@ -1,7 +1,7 @@
 <template>
   <div class="m-5 flex justify-center h-4/5">
-    <div class="w-11/12 h-full bg-slate-button rounded-2xl flex">
-      <div class="flex justify-center m-5 items-center w-4/12">
+    <div class="w-11/12 h-full bg-slate-button rounded-2xl flex items-center">
+      <div class="m-5 w-4/12">
         <img :src="ImgURL" alt="course-icon" />
       </div>
       <div class="w-8/12">

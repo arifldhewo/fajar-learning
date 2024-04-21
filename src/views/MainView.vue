@@ -1,14 +1,14 @@
 <template>
   <div class="lg:flex lg:justify-center lg:flex-wrap">
+    <NavMobile></NavMobile>
     <LeftHero></LeftHero>
     <RightHero></RightHero>
-    <CatalogCourse></CatalogCourse>
   </div>
 </template>
 
 <script>
-import CatalogCourse from "@/components/Course/CatalogCourse.vue";
 import LeftHero from "@/components/Home/LeftHero.vue";
+import NavMobile from "@/components/Home/NavMobile.vue";
 import RightHero from "@/components/Home/RightHero.vue";
 
 export default {
@@ -16,7 +16,7 @@ export default {
   components: {
     LeftHero,
     RightHero,
-    CatalogCourse,
+    NavMobile,
   },
 };
 </script>

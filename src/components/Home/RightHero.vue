@@ -1,11 +1,15 @@
 <template>
   <nav class="lg:w-1/2 h-screen w-full bg-blue-logo">
-    <div v-show="isLaptop" class="w-full flex justify-evenly items-center mt-8">
+    <div
+      class="invisible lg:visible w-full flex justify-evenly items-center mt-8"
+    >
       <router-link class="text-2xl font-semibold" to="/">Home</router-link>
       <router-link class="text-2xl font-semibold" to="/about"
         >About</router-link
       >
-      <a class="text-2xl font-semibold" href="#course">Course</a>
+      <router-link class="text-2xl font-semibold" to="/course"
+        >Course</router-link
+      >
       <a
         class="text-2xl font-semibold"
         target="_blank"
@@ -23,22 +27,11 @@
 
 <script>
 import ButtonSecondary from "../button/ButtonSecondary.vue";
-import { useWindowSize } from "@vueuse/core";
 
 export default {
   name: "RightHero",
   components: {
     ButtonSecondary,
-  },
-  data() {
-    return {
-      currentWindowSize: useWindowSize(),
-    };
-  },
-  computed: {
-    isLaptop() {
-      return this.currentWindowSize.width >= 1024;
-    },
   },
 };
 </script>
