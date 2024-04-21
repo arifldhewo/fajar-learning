@@ -6,8 +6,10 @@
       alt="Logo"
     />
 
-    <div class="scale-75 flex items-end flex-wrap lg:-mt-20 xl:-mt-14 -ml-5">
-      <p class="text-7xl lg:text-8xl mt-24 lg:mt-24">
+    <div
+      class="scale-75 w-11/12 flex items-end flex-wrap lg:-mt-20 xl:-mt-14 -ml-5"
+    >
+      <p class="text-7xl lg:text-6xl xl:text-8xl mt-24">
         A Good <span class="text-cyan-400">Education</span> Is a Foundation for
         Better Future
       </p>
