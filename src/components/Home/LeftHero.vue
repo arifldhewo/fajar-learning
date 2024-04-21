@@ -18,7 +18,7 @@
       </p>
       <router-link to="/course">
         <ButtonPrimary
-          class="text-2xl mt-14 font-bold text-slate-800 scale-100"
+          class="text-2xl mt-14 font-bold text-slate-800 scale-100 mb-20"
           :text="'Get Started'"
         >
         </ButtonPrimary>
