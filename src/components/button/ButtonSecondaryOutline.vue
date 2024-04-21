@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: "ButtonSecondary",
+  name: "ButtonSecondaryOutline",
   props: {
     text: String,
   },
