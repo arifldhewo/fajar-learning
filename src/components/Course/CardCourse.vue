@@ -1,5 +1,5 @@
 <template>
-  <div class="m-5 flex justify-center">
+  <div class="m-5 flex justify-center h-4/5">
     <div class="w-11/12 h-full bg-slate-button rounded-2xl flex">
       <div class="flex justify-center m-5 items-center w-4/12">
         <img :src="ImgURL" alt="course-icon" />
